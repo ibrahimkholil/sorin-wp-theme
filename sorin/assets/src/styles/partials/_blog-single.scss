@@ -1,0 +1,215 @@
+.sorin-single-post{
+    article{
+        .sorin-single-entry-header{
+           .entry-title.single{
+
+           }
+        }
+        .entry-content{
+            p{
+
+            }
+        }
+        .sorin-post-footer{
+            border-bottom: 1px solid #ececec;
+            border-top: 1px solid #ececec;
+            padding: 14px 0px 16px 0;
+            margin: 8px 0 40px;
+            float: left;
+            width: 100%;
+           .sorin-tags{
+             @media (max-width: 767px){
+               text-align: center;
+               width: 100%;
+             }
+              span{
+                color:#08364b;
+                font-weight: 600;
+                font-size: 17px;
+                margin: 0px 19px 0px 0px;
+                i{
+                  font-size: 16px;
+                  margin: 6px 10px 0px 0px;
+                }
+              }
+              a{
+                padding: 3px 0 0;
+                margin: 0px 0px 0px 11px;
+                color: #888888;
+                display: inline-block;
+                &:hover{
+                  color: $primary;
+                }
+              }
+           }
+           .social-follow-wrap{
+             display: table;
+             span{
+               display: table-cell;
+               color:#08364b;
+               font-weight: 600;
+               font-size: 17px;
+               margin: 0px 19px 0px 0px;
+               i{
+                 font-size: 16px;
+                 margin: 6px 10px 0px 0px;
+               }
+             }
+            .social-follow{
+              display: table-cell;
+              padding: 0;
+              margin: 0;
+              .share-post{
+                list-style: none;
+                display: inline-block;
+                margin: 0px 0px 0px 15px;
+                a{
+                  color: #888888;
+                  margin: 5px 0px 0px;
+                  font-size: 16px;
+                  &:hover{
+                    color:$primary;
+                  }
+                  i{
+
+                  }
+                }
+              }
+            }
+          }
+        }
+        .post-navigation{
+          .sorin-prenxt-post{
+            float: left;
+            width: 100%;
+            margin: 0px 0px 48px;
+             ul{
+               margin: 0px -15px;
+               li{
+                 list-style: none;
+                 float: left;
+                 width: 50%;
+                 padding: 0px 15px;
+                 &:hover{
+                   .sorin-prev-post, .sorin-next-post{
+                     &:before{
+                       width: 103%;
+                       background-color: $primary;
+                     }
+                     &:after{
+                       height: 112%;
+                       background-color: $primary;
+                     }
+                     span{
+                       &:before{
+                         width: 103%;
+                         background-color: $primary;
+                       }
+                       &:after{
+                         height: 112%;
+                         background-color: $primary;
+                       }
+                     }
+                     a{
+                       color:$primary;
+                     }
+                   }
+                 }
+                 .sorin-prev-post, .sorin-next-post{
+                   &.sorin-next-post{
+                     padding: 17px 0px 17px 20px;
+                   }
+                   &.sorin-prev-post{
+                     padding: 17px 20px 17px 0px;
+                   }
+                   width: 100%;
+                   position: relative;
+                   float: left;
+                   &:before{
+                     background-color: #ececec;
+                     content: "";
+                     height: 1px;
+                     left: 0;
+                     position: absolute;
+                     top: 0px;
+                     width: 100%;
+                     -webkit-transition: all 0.5s ease-in-out;
+                     -moz-transition: all 0.5s ease-in-out;
+                     -ms-transition: all 0.5s ease-in-out;
+                     -o-transition: all 0.5s ease-in-out;
+                     transition: all 0.5s ease-in-out;
+                   }
+                   &:after{
+                     background-color: #ececec;
+                     top: 0px;
+                     content: "";
+                     height: 100%;
+                     left: 0;
+                     position: absolute;
+                     width: 1px;
+                     -webkit-transition: all 0.5s ease-in-out;
+                     -moz-transition: all 0.5s ease-in-out;
+                     -ms-transition: all 0.5s ease-in-out;
+                     -o-transition: all 0.5s ease-in-out;
+                     transition: all 0.5s ease-in-out;
+                   }
+                   span{
+                     position: absolute;
+                     right: 0px;
+                     bottom: 0px;
+                     width: 100%;
+                     height: 100%;
+                     z-index: -1;
+                     &:before{
+                       content: '';
+                       position: absolute;
+                       right: 0px;
+                       bottom: 0px;
+                       width: 100%;
+                       height: 1px;
+                       background-color: #ececec;
+                       -webkit-transition: all 0.5s ease-in-out;
+                       -moz-transition: all 0.5s ease-in-out;
+                       -ms-transition: all 0.5s ease-in-out;
+                       -o-transition: all 0.5s ease-in-out;
+                       transition: all 0.5s ease-in-out;
+                     }
+                     &:after{
+                       content: '';
+                       position: absolute;
+                       right: 0px;
+                       bottom: 0px;
+                       width: 1px;
+                       height: 100%;
+                       background-color: #ececec;
+                       -webkit-transition: all 0.5s ease-in-out;
+                       -moz-transition: all 0.5s ease-in-out;
+                       -ms-transition: all 0.5s ease-in-out;
+                       -o-transition: all 0.5s ease-in-out;
+                       transition: all 0.5s ease-in-out;
+                     }
+                   }
+                   h3{
+                     float: left;
+                     font-size: 16px;
+                     line-height: 1.3;
+                     margin: 0px 0px 4px;
+                     font-weight: 600;
+                     width: 100%;
+                     a{
+                       color: #08364b;
+                     }
+                   }
+                   .sorin-post-arrow{
+                     font-size: 12px;
+                     color: #666666;
+                     line-height: 1.5;
+                     font-style: italic;
+                   }
+                 }
+               }
+             }
+          }
+        }
+    }
+}

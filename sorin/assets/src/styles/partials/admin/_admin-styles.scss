@@ -1,0 +1,142 @@
+body{
+  #adminmenumain{
+    #adminmenuwrap{
+      #adminmenu{
+        li{
+          a{
+            .wp-menu-image{
+              img{
+                padding: 5px 0 0 0;
+                width: 24px;
+                line-height: 24px;
+                height: 24px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  #wpcontent{
+    #wpbody{
+      #wpbody-content{
+        .redux-container{
+          background-color: #f3f3f3 !important;
+          background-image: none !important;
+          #redux-header {
+            background: #188ff41a;
+            padding: 0;
+            border: none;
+            .display_header {
+              padding: 20px 25px;
+              width: 100%;
+              margin: 0 auto;
+              text-align: center;
+              .redux-dev-mode-notice-container{
+                right: 0;
+                top: 0;
+                left:unset;
+              }
+              img{
+                max-width: 200px;
+                display: block;
+                margin: 0 auto;
+              }
+            }
+            .rAds {
+              display: none !important;
+            }
+          }
+          #redux-intro-text{
+            display: none;
+          }
+          .redux-sidebar{
+            .redux-group-menu{
+              background: #fff;
+              li{
+                border-bottom: 1px solid #3555ff4a;
+                a{
+                  background-color: #f3f3f3;
+                  border-color: rgba(255,255,255,0.06);
+                  color: rgba(45, 40, 40, 0.75);
+                  text-shadow: none!important;
+                  padding: 16px 4px 16px 25px;
+                  opacity: 1;
+                  font-weight: 400 !important;
+                  &:hover{
+                    background-color: #3555ff3b;
+                    color: #3555ff;
+                  }
+                }
+              }
+            }
+          }
+          .redux-main{
+            background: #fff;
+            #redux-sticky{
+              #info_bar{
+                background-color: #fff !important;
+                height: 38px;
+                padding-top: 7px;
+                .expand_options{
+                  display: none;
+                }
+                .redux-action_bar{
+                  .button{
+                    border: none;
+                    &:not(.wp-picker-default):not(.wp-color-result){
+                      text-shadow: none !important;
+                      box-shadow: none !important;
+                      border: none;
+                      opacity: 1;
+                      background-color: #ebebeb;
+                      margin: 6px 3px;
+                      transition: all 0.13s linear;
+                    }
+                    &.button-primary{
+                      background-color: #77cc6d!important;
+                      border-color: #247cc7 #247cc7 #247cc7;
+                      box-shadow: 0 1px 0 #188ff4;
+                      color: #fff;
+                      text-decoration: none;
+                      text-shadow: 0 -1px 1px #188ff4, 1px 0 1px #188ff4, 0 1px 1px #188ff4, -1px 0 1px #188ff4;
+                    }
+                  }
+                }
+              }
+            }
+            #redux-footer-sticky{
+              #redux-footer{
+                background-color: #fff !important;
+                .redux-action_bar{
+                  .button{
+                    border: none;
+                    &:not(.wp-picker-default):not(.wp-color-result){
+                      text-shadow: none !important;
+                      box-shadow: none !important;
+                      border: none;
+                      opacity: 1;
+                      background-color: #ebebeb;
+                      margin: 6px 3px;
+                      transition: all 0.13s linear;
+                    }
+                    &.button-primary{
+                      background-color: #77cc6d!important;
+                      border-color: #247cc7 #247cc7 #247cc7;
+                      box-shadow: 0 1px 0 #188ff4;
+                      color: #fff;
+                      text-decoration: none;
+                      text-shadow: 0 -1px 1px #188ff4, 1px 0 1px #188ff4, 0 1px 1px #188ff4, -1px 0 1px #188ff4;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+  }
+
+}

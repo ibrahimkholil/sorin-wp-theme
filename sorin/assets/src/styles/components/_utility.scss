@@ -1,0 +1,121 @@
+@for $i from 1 through 10{
+    /*Padding top*/
+    .pat-#{$i}0{
+        padding-top: #{$i}0px;
+    }
+    @if($i < 10){
+        .pat-#{$i}5{
+            padding-top: #{$i}5px;
+        }
+    }
+    /* Padding bottom*/
+    .pab-#{$i}0{
+        padding-bottom: #{$i}0px;
+    }
+    @if($i < 10){
+        .pab-#{$i}5{
+            padding-bottom: #{$i}5px;
+        }
+    }
+    /* Padding top bottom*/
+    .pay-#{$i}0{
+        padding-top: #{$i}0px;
+        padding-bottom: #{$i}0px;
+    }
+    @if($i < 10){
+        .pay-#{$i}5{
+            padding-top: #{$i}5px;
+            padding-bottom: #{$i}5px;
+        }
+    }
+    /* Padding left */
+    .pal-#{$i}0{
+        padding-left: #{$i}0px;
+    }
+    @if($i < 10){
+        .pal-#{$i}5{
+            padding-left: #{$i}5px;
+        }
+    }
+    /* Padding right */
+    .par-#{$i}0{
+        padding-right: #{$i}0px;
+    }
+    @if($i < 10){
+        .par-#{$i}5{
+            padding-right: #{$i}5px;
+        }
+    }
+    /* Padding left right */
+    .pax-#{$i}0{
+        padding-left: #{$i}0px;
+        padding-right: #{$i}0px;
+    }
+    @if($i < 10){
+        .pax-#{$i}5{
+            padding-left: #{$i}5px;
+            padding-right: #{$i}5px;
+        }
+    }
+    /* Padding all */
+    .paa-#{$i}0{
+        padding: #{$i}0px;
+    }
+    @if($i < 10){
+        .paa-#{$i}5{
+            padding: #{$i}5px;
+        }
+    }
+    /* Margin top*/
+    .mat-#{$i}0{
+        margin-top: #{$i}0px;
+    }
+    @if($i < 10){
+        .mat-#{$i}5{
+            margin-top: #{$i}5px;
+        }
+    }
+    /* Margin bottom*/
+    .mab-#{$i}0{
+        margin-bottom: #{$i}0px;
+    }
+    @if($i < 10){
+        .mab-#{$i}5{
+            margin-bottom: #{$i}5px;
+        }
+    }
+}
+.pal-0{
+    padding-left: 0;
+}
+.par-0{
+    padding-right: 0;
+}
+.pat-0{
+    padding-top: 0;
+}
+.pab-0{
+    padding-bottom: 0;
+}
+@if(variable_exists('primary')){
+    .primary-txt{
+        color: $primary;
+        &:hover{
+            color: darken($primary, 5%);
+        }
+    }
+    .primary-bg{
+        background-color: $primary;
+    }
+}
+@if(variable_exists('secondary')){
+    .secondary-txt{
+        color: $secondary;
+        &:hover{
+            color: darken($secondary, 5%);
+        }
+    }
+    .secondary-bg{
+        background-color: $secondary;
+    }
+}

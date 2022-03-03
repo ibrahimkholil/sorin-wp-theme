@@ -1,0 +1,92 @@
+.redux-container {
+    background-color: #f3f3f3 !important;
+    background-image: none !important;
+}
+.admin-color-fresh #redux-header, .wp-customizer #redux-header {
+    background:#3555ff !important;
+   }
+.redux-container #redux-header {
+    padding: 0;
+    border: none;
+    text-align: left;
+}
+.redux-container .display_header {
+    padding: 20px 25px;
+    margin: 0!important;
+}
+.redux-container #redux-intro-text, .redux-main #redux-sticky #info_bar .expand_options {
+    display: none;
+}
+.redux-container #info_bar, .redux-main, .redux-container #redux-footer {
+    background-color: #fff !important;
+}
+#redux-header .rAds {
+    display: none !important;
+}
+/**top button***/
+.admin-color-fresh .redux-container .redux-main .button.button-primary:hover {
+    opacity: 0.8;
+    border: none;
+}
+.admin-color-fresh .redux-container .redux-main .button.button-primary {
+    background-color: #77cc6d !important;
+    background-image: none!Important;
+    text-shadow: none !important;
+    box-shadow: none !important;
+    color: #fff !important;
+    border: none;
+}
+.admin-color-fresh .redux-container .redux-main .button:not(.wp-picker-default):not(.wp-color-result) {
+
+    text-shadow: none !important;
+    box-shadow: none !important;
+    border: none;
+    opacity: 1;
+    background-color: #ebebeb;
+    margin: 6px 3px;
+    transition: all 0.13s linear;
+
+}
+.redux-main #redux-sticky #info_bar {
+    height: 38px;
+    padding-top: 6px;
+}
+.redux-container .notice-yellow {
+    background-color: #fff;
+    color: #77cc6d;
+}
+/**admin left sidebar**/
+body .redux-container .redux-sidebar .redux-group-menu li a {
+    background-color: #f3f3f3;
+    border-color: rgba(255,255,255,0.06);
+    color: rgba(45, 40, 40, 0.75);
+    text-shadow: none!Important;
+    opacity: 1;
+}
+html .redux-container .redux-sidebar .redux-group-menu * {
+    font-weight: 400 !important;
+}
+
+.redux-sidebar .redux-group-menu li a {
+    padding: 16px 4px 16px 25px;
+}
+.redux-sidebar .redux-group-menu {
+    background: #fff;
+}
+body .redux-sidebar .redux-group-menu li > a:hover {
+    background-color: #3555ff3b;
+    color: #3555ff;
+}
+html .redux-sidebar .redux-group-menu li.redux-group-tab-link-li.active > a, html .redux-container .redux-sidebar .redux-group-menu li.activeChild.hasSubSections a {
+    background-color: #3555ff3b;
+    color: #3555ff;
+}
+
+.redux-action_bar .button-primary{
+    background: #188ff4;
+    border-color: #247cc7 #247cc7 #247cc7;
+    box-shadow: 0 1px 0 #188ff4;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 0 -1px 1px #188ff4, 1px 0 1px #188ff4, 0 1px 1px #188ff4, -1px 0 1px #188ff4;
+}

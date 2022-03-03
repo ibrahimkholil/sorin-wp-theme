@@ -1,0 +1,99 @@
+/**page banner**/
+section.page-title{
+    padding: 60px;
+    background: #e2e2e2;
+    .title-inner{
+        h1.title{
+
+        }
+    }
+}
+/**404**/
+.page-404{
+    h1{
+        font-size: 9.75rem;
+        font-weight: bold;
+        @media(max-width: 767px){
+            font-size: 5rem;
+        }
+    }
+    h5{
+        color: #141414;
+    }
+}
+/**
+*Breadcumbs style
+*
+*/
+
+.breadcumbs{
+    background: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    z-index: 1;
+    a, span{
+        text-transform: uppercase;
+        font-size: 0.8em;
+    }
+    a{
+        &:after{
+            color: inherit;
+            opacity: 0.5;
+            font-family: 'Font Awesome 5 Free';
+            font-weight: 900;
+            content: "\f105";
+            padding: 0 7px 0 5px;
+
+        }
+    }
+    span{
+
+    }
+}
+.sorin-main-content{
+    width: 100%;
+    padding: 100px 0px 60px 0px;
+    overflow: hidden;
+    .sorin-main-section{
+        width: 100%;
+        position: relative;
+    }
+}
+
+.img-cover{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.light-bg{
+    background-color: #f7f7f7;
+}
+.sr-primary-bg{
+    background: $primary;
+}
+
+.sr-primary-hover-bg:hover{
+    background: $primary_dark;
+}
+.sr-secondary-bg{
+    background: $secondary;
+}
+.overflow-hidden{
+    overflow: hidden!important;
+}
+.sorin-readmore-btn {
+    display: inline-block;
+    font-size: 13px;
+    color: #888888;
+    font-weight: bold;
+    position: relative;
+    padding: 4px 21px;
+    border: 1px solid #bbbbbb;
+    &:hover{
+        border: 1px solid $primary;
+    }
+}
+
+
